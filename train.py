@@ -12,13 +12,13 @@ import sys
 # CONFIG & ARGS
 # ------------------
 parser = argparse.ArgumentParser(description="Train GPT on custom corpus")
-parser.add_argument("--batch_size", type=int, default=64, help="Batch size")
-parser.add_argument("--block_size", type=int, default=256, help="Context length (block size)")
+parser.add_argument("--batch_size", type=int, default=4, help="Batch size")
+parser.add_argument("--block_size", type=int, default=128, help="Context length (block size)")
 parser.add_argument("--embed_dim", type=int, default=384, help="Embedding dimension")
 parser.add_argument("--num_layers", type=int, default=6, help="Number of transformer layers")
 parser.add_argument("--num_heads", type=int, default=6, help="Number of attention heads")
 parser.add_argument("--learning_rate", type=float, default=3e-4, help="Learning rate")
-parser.add_argument("--max_steps", type=int, default=10000, help="Maximum training steps")
+parser.add_argument("--max_steps", type=int, default=16500, help="Maximum training steps")
 parser.add_argument("--eval_interval", type=int, default=500, help="Steps between validation")
 parser.add_argument("--eval_iters", type=int, default=200, help="Iterations for loss estimation")
 parser.add_argument("--checkpoint_dir", type=str, default="checkpoints", help="Directory to save checkpoints")

@@ -15,14 +15,14 @@ def encode(text):
 
 vocab_size = tokenizer.get_vocab_size()
 
-block_size = 128
+block_size = 96
 
 model = GPT(
     vocab_size=vocab_size,
     block_size=block_size,
-    embed_dim=128,
-    num_layers=4,
-    num_heads=4
+    embed_dim=384,
+    num_layers=6,
+    num_heads=6
 ).to(device)
 
 model.load_state_dict(torch.load("gpt.pth", map_location=device))
