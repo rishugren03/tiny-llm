@@ -1,0 +1,98 @@
+Name: Rishu Kumar
+
+Location: Patna, Bihar, India
+Email: rishugren03@gmail.com
+Phone: +91 7547889854
+GitHub: https://github.com/rishugren03
+Portfolio: https://rishuu.me
+
+Title:
+Software Engineer | SaaS Developer | AI Enthusiast
+
+Summary:
+Software Engineer with experience building scalable backend systems, developer APIs, and AI-integrated SaaS platforms.
+Strong problem-solving skills with a solid foundation in data structures and algorithms, demonstrated through real-world engineering projects.
+Currently working as an SDE at Attack Capital, previously at Bawse, with hands-on experience in Node.js, FastAPI, Redis, and production-grade infrastructure.
+Shipped tools like Web2Docx and Acadsphere with real user adoption.
+Actively seeking high-impact SDE internships focused on large-scale distributed systems and backend architecture.
+
+Education:
+Delhi Public School, Bokaro Steel City
+April 2020 – April 2022
+Subjects: Physics, Mathematics, Chemistry, Economics
+
+Bihar Engineering University
+August 2023 – August 2027
+Degree: Bachelor of Engineering
+Branch: Computer Science and Engineering
+
+Professional Experience:
+
+Software Engineer Intern | Attack Capital (YC-backed)
+July 2025 – Present
+- Worked on Scribe Health AI, a HIPAA-compliant AI-powered medical scribing platform.
+- Optimized API request handling in a Next.js application, reducing cloud infrastructure costs.
+- Built an AI-powered Clinical Note Editor to streamline medical documentation.
+- Implemented EHR integrations for seamless appointment fetching and direct note transfer.
+- Collaborated with U.S.-based teams during U.S. business hours.
+Technologies: Next.js, Node.js, TypeScript, Python, LangChain, PostgreSQL, Google Cloud Run, Cloud SQL
+
+Backend Developer Intern | Bawse
+February 2025 – June 2025
+- Developed and optimized backend services powering analytics for music artists and executives.
+- Integrated multiple third-party APIs and improved data processing pipelines.
+- Collaborated closely with the CTO and cross-functional teams.
+- Implemented Retrieval-Augmented Generation (RAG) using OpenAI API, LangChain, pgvector, and Flask.
+Technologies: Node.js, Express, MongoDB, React Native, AWS EC2, LangChain, Soundcharts APIs
+
+Projects:
+
+Web2Docx (Developer Tool)
+April 2025 – Present
+- Built a production-ready API to convert HTML and URLs into PDF, DOCX, and image formats.
+- Designed a scalable job queue using Redis and BullMQ to handle high workloads.
+- Created and published an SDK on npm for easy developer integration.
+- Achieved adoption by 150+ users.
+Technologies: Node.js, Redis, BullMQ, Puppeteer, wkhtmltopdf, Paddle API, React
+
+DroonAI
+June 2025 – August 2025
+- Built an AI-driven feedback clustering system for product insights.
+- Developed a thread-first community platform with rule-based moderation.
+- Engineered an SEO-friendly knowledge base to improve organic reach.
+- Created real-time sentiment analysis and insights dashboards.
+
+Acadsphere
+- Built an edtech platform providing study resources for engineering students.
+
+NourishNet
+- Built an e-commerce platform enabling farmers to sell products directly to consumers.
+
+Technical Skills:
+
+Programming Languages:
+C, C++, JavaScript, TypeScript, Python, Solidity, Lua
+
+Backend & APIs:
+Node.js, Express.js, FastAPI, Flask, MongoDB, PostgreSQL, Firebase, Redis, BullMQ
+
+Frontend:
+React.js, Next.js, Tailwind CSS, Shadcn UI, daisyUI, MagicUI, HTML, CSS
+
+AI & Machine Learning:
+Hugging Face, PyTorch, Google Colab, NLP, LLaMA fine-tuning, OpenAI API
+
+Retrieval-Augmented Generation (RAG):
+LangChain, OpenAI Embeddings, pgvector
+
+Cloud & DevOps:
+AWS EC2, AWS SQS, Firebase Hosting, Vercel, Render, Git, GitHub
+
+Authentication & Security:
+Clerk, Firebase Auth, JWT, OAuth 2.0
+
+Tools:
+Visual Studio Code, Postman, Slack
+
+Operating Systems:
+Linux (Ubuntu 24.04)

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Ask about my resume</h2>
+  <input id="q" placeholder="Ask a question" />
+  <button onclick="ask()">Ask</button>
+  <pre id="a"></pre>
+
+  <script>
+    async function ask() {
+      const q = document.getElementById("q").value;
+      const res = await fetch("http://127.0.0.1:8000/ask", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({question: q})
+      });
+      const data = await res.json();
+      document.getElementById("a").innerText = data.answer;
+    }
+  </script>
+</body>
+</html>
